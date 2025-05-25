@@ -1,0 +1,198 @@
+{
+	"id": "e515af25-953a-4fc2-b4ae-1ca0ef9ea2aa",
+	"name": "New Collection",
+	"timestamp": "2025-05-25T02:53:48.353Z",
+	"collection_id": "43968277-7f409f4e-11bc-490b-a196-4a73951a09a0",
+	"folder_id": "43968277-6dc2faa6-6cab-4442-b78f-5f2b7c2a69ce",
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-05-25T02:53:47.235Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "15df40bb-54f8-4c20-9814-d89578fa7d83",
+			"name": "http://localhost:5062/api/Mecanico",
+			"url": "http://localhost:5062/api/Facturas",
+			"time": 203,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				203
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "19b94cf3-e807-44a3-a784-fd202e50e2df",
+			"name": "http://localhost:5062/api/Facturas",
+			"url": "http://localhost:5062/api/Facturas",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6945a85b-951e-4e48-bc52-b404be0d9e1d",
+			"name": "http://localhost:5062/api/Clientes",
+			"url": "http://localhost:5062/api/Clientes",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "138f7ae6-5fbd-4235-a9f8-0da3f749f739",
+			"name": "http://localhost:5062/api/Servicios",
+			"url": "http://localhost:5062/api/Servicios",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bcfd331d-1be3-46e5-abae-47db7dc05691",
+			"name": "http://localhost:5062/api/Taller",
+			"url": "http://localhost:5062/api/Turnos",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bf2c8206-d39d-490f-8ff3-55b21bf7d3ba",
+			"name": "http://localhost:5062/api/Turnos",
+			"url": "http://localhost:5062/api/Vehiculos",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "99bdc206-8ce0-4bc8-9abe-a72222e033bc",
+			"name": "http://localhost:5062/api/Repuestos",
+			"url": "http://localhost:5062/api/Repuestos",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "96cc8a87-18f6-409b-95c5-bcb58658322c",
+			"name": "http://localhost:5062/api/Turnos",
+			"url": "http://localhost:5062/api/Vehiculos",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				8
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 230,
+	"collection": {
+		"requests": [
+			{
+				"id": "15df40bb-54f8-4c20-9814-d89578fa7d83",
+				"method": "GET"
+			},
+			{
+				"id": "19b94cf3-e807-44a3-a784-fd202e50e2df",
+				"method": "GET"
+			},
+			{
+				"id": "6945a85b-951e-4e48-bc52-b404be0d9e1d",
+				"method": "GET"
+			},
+			{
+				"id": "138f7ae6-5fbd-4235-a9f8-0da3f749f739",
+				"method": "GET"
+			},
+			{
+				"id": "bcfd331d-1be3-46e5-abae-47db7dc05691",
+				"method": "GET"
+			},
+			{
+				"id": "bf2c8206-d39d-490f-8ff3-55b21bf7d3ba",
+				"method": "GET"
+			},
+			{
+				"id": "99bdc206-8ce0-4bc8-9abe-a72222e033bc",
+				"method": "GET"
+			},
+			{
+				"id": "96cc8a87-18f6-409b-95c5-bcb58658322c",
+				"method": "GET"
+			}
+		]
+	}
+}
